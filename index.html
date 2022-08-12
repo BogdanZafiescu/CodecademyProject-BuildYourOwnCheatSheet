@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <section class="main-sct">
+        <h1 id="first-page">Html cheatsheet</h1>
+        <h2>Basic Html Elements</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Elements</th>
+                    <th colspan="2">Attributes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="sub-label">Element name</th>
+                    <th class="sub-label">Tag/Tags</th>
+                    <th class="sub-label">Description</th>
+                    <th class="sub-label">Attribute name</th>
+                    <th class="sub-label">Description</th>
+                </tr>
+                <tr>
+                    <td>Paragraph</td>
+                    <td class="tags">&lt;p&gt;</td>
+                    <td>Paragraphs are blocks of text separated from adjacent blocks by blank lines.
+                    </td>
+                    <td colspan="2">This element only includes the global attributes.</td>
+                </tr>
+
+                <tr>
+                    <td>Headings</td>
+                    <td class="tags">&lt;h1&gt; to &lt;h6&gt;</td>
+                    <td>Headings are titles or subtitles.
+                        &lt;h1&gt; is the biggest and &lt;h6&gt; is the smallest.
+                    </td>
+                    <td colspan="2">This element only includes the global attributes.</td>
+                </tr>
+
+                <tr>
+                    <td>Anchor</td>
+                    <td class="tags">&lt;a&gt;</td>
+                    <td>This elementcreates a hyperlink to web pages, files, email addresses,
+                        locations in the same page, or anything else.</td>
+                    <td class="attributes">href</td>
+                    <td>The URL that the hyperlink points to. </td>
+                </tr>
+
+                <tr>
+                    <td>Image</td>
+                    <td class="tags">&lt;img&gt;</td>
+                    <td>The image element embeds an image into the document.</td>
+                    <td class="attributes">alt</td>
+                    <td>Defines an alternative text description of the image.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="attributes">src</td>
+                    <td>This sets the url of the element.</td>
+                </tr>
+
+                <tr>
+                    <td>Ordered list</td>
+                    <td class="tags">&lt;ol&gt;</td>
+                    <td>This element element represents an ordered list of items.Each list item starts with the
+                        &lt;li&gt; tag.</td>
+                    <td class="attributes">type</td>
+                    <td>Sets the numbering type:for lowercase letters A, for uppercase letters i, for lowercase
+                        Roman
+                        numerals I, for uppercase Roman numerals 1, for numbers (default)</td>
+                </tr>
+
+                <tr>
+                    <td>Unordered list</td>
+                    <td class="tags">&lt;ul&gt;</td>
+                    <td>This element element represents an unordered list of items.Each list item starts with the
+                        &lt;li&gt; tag.</td>
+                    <td class="attributes">type</td>
+                    <td>This attribute sets the bullet style for the list: circle, disc, square</td>
+                </tr>
+
+                <tr>
+                    <td>List</td>
+                    <td class="tags">&lt;li&gt;</td>
+                    <td>This is used to represent an item in a list. It must be contained in a parent element: an
+                        ordered list, an unordered list , or a menu.</td>
+                    <td class="attributes">type</td>
+                    <td>This attribute sets the bullet style, or the numbering type for the list and will override
+                        the
+                        one used by its parent.</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#next-page">
+            <div class="switch-page">NEXT</div>
+        </a>
+    </section>
+
+    <section id="next-page" class="second main-sct">
+        <h2>Html Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Elements</th>
+                    <th colspan="2">Attributes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="sub-label">Element name</th>
+                    <th class="sub-label">Tag/Tags</th>
+                    <th class="sub-label">Description</th>
+                    <th class="sub-label">Attribute name</th>
+                    <th class="sub-label">Description</th>
+                </tr>
+                <tr>
+                    <td>Table</td>
+                    <td class="tags">&lt;table&gt;</td>
+                    <td>Represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.</td>
+                    <td class="attributes">colspan</td>
+                    <td>Defines how many columns a td element should span.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="attributes">rowspan</td>
+                    <td>Defines how many rows a td element should span.</td>
+                </tr>
+
+                <tr>
+                    <td>Table Head</td>
+                    <td class="tags">&lt;thead&gt;</td>
+                    <td>The set of rows defining the column headers in a table.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td class="tags">&lt;tbody&gt;</td>
+                    <td>The set of rows containing actual table data.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Table Row</td>
+                    <td class="tags">&lt;tr&gt;</td>
+                    <td>The table row container.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+
+                <tr>
+                    <td>Table Foot</td>
+                    <td class="tags">&lt;tfoot&gt;</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#">
+            <div class="switch-page second-switch">PREVIOUS</div>
+        </a>
+    </section>
+
+
+</body>
+
+</html>
